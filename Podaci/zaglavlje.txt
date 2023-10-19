@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head>
+        <title>Rezervacija</title>
+        <meta charset="UTF-8">
+        <meta name="kljucneRijeci" content="Hotel, Lannister, CSS, HTML">
+        <meta name="autor" content="Frano Šimić">
+        <link rel="icon" type="image/x-icon" href="../Dokumenti/Slike/LogoMini.png">
+        <link rel="stylesheet" type="text/css" href="../CSS/fsimic21.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/fsimic21_responzivni_dizajn.css">
+        <script src="/javascript" type="text/javascript"></script>
+    </head>
+    <body class="pozadina">
+        <div class="background"></div>
+        <header>
+          <a href="/"><img class="imgZagA" src="../Dokumenti/Slike/Logo.png" alt="Greska"></a>
+          <h1 class="h1Autor">REZERVACIJA</h1>
+        </header>
+        <main>
+          <nav>
+            <ul>
+              <li><a href="/"> POČETNA</a></li>
+              <li><a href="autor">AUTOR</a></li>
+              <li><a href="dokumentacija">DOKUMENTACIJA</a></li>
+              <li><a href="rezervacija" class="aktivnaStranica">REZERVACIJA</a></li>
+              <li><a href="prijava">PRIJAVA</a></li>
+              <li><a href="galerija">GALERIJA</a></li>
+            </ul>
+          </nav>
+           <div class="centriraj">

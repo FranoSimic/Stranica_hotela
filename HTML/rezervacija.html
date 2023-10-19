@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head>
+        <title>Rezervacija</title>
+        <meta charset="UTF-8">
+        <meta name="kljucneRijeci" content="Hotel, Lannister, CSS, HTML">
+        <meta name="autor" content="Frano Šimić">
+        <link rel="icon" type="image/x-icon" href="../Dokumenti/Slike/LogoMini.png">
+        <link rel="stylesheet" type="text/css" href="CSS/fsimic21.css">
+        <link rel="stylesheet" type="text/css" href="CSS/fsimic21_responzivni_dizajn.css">
+        <script src="/javascript" type="text/javascript"></script>
+    </head>
+    <body class="pozadina">
+        <div class="background"></div>
+        <header>
+          <a href="/"><img class="imgZagA" src="../Dokumenti/Slike/Logo.png" alt="Greska"></a>
+          <h1 class="h1Autor">REZERVACIJA</h1>
+        </header><main>
+          <nav>
+            <ul>
+              <li><a href="/"> POČETNA</a></li>
+              <li><a href="autor">AUTOR</a></li>
+              <li><a href="dokumentacija">DOKUMENTACIJA</a></li>
+              <li><a href="rezervacija" class="aktivnaStranica">REZERVACIJA</a></li>
+              <li><a href="prijava">PRIJAVA</a></li>
+              <li><a href="galerija">GALERIJA</a></li>
+              <li><a href="dinamicna">DINAMIČKA</a></li>
+              <li><a href="/api/rezervacije">REST</a></li>
+            </ul>
+          </nav>
+           <div class="centriraj">
+            <table id="CijenikID" >
+                <thead>
+                  <tr>
+                    <th colspan="3">CJENIK USLUGA</th>
+                  </tr>
+                  <tr>
+                    <th>Usluga</th>
+                    <th>Opis</th>
+                    <th>Cijena</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="2">Jednokrevetna soba</td>
+                    <td>Bez spa</td>
+                    <td>40 &euro;</td>
+                  </tr>
+                  <tr>
+                    <td>Sa spa</td>
+                    <td>55 &euro;</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">Dvokrevetna soba</td>
+                    <td>Bez spa</td>
+                    <td>35 &euro;</td>
+                  </tr>
+                  <tr>
+                    <td>Sa spa</td>
+                    <td>50 &euro;</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">Trokrevetna soba</td>
+                    <td>Bez spa</td>
+                    <td>30 &euro;</td>
+                  </tr>
+                  <tr>
+                    <td>Sa spa</td>
+                    <td>40 &euro;</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">Popust na svaku dodatnu noć</td>
+                    <td>5%</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div id="OpisID"></div>
+           </div>
+            
+            <br><br><br>
+            <form id="rezervacijaID" name="mojaForma" method="post" action="/api/rezervacije" class="centriraj"  >
+                <div class="boxRezervacija" >
+                  <fieldset class="fieldsetClass">
+                    <legend>Osobni podaci:</legend><br>
+                    <label for="ime">Ime i prezime:</label>
+                    <input type="text" id="ime" name="ime" ><br><br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email"><br><br>
+                    <label for="telefon">Telefon:</label>
+                    <input type="text" id="telefon" name="telefon"><br><br>
+                  </fieldset>
+                </div>
+                <div class="boxRezervacija">
+                  <fieldset class="fieldsetClass">
+                    <legend>Podaci za rezervaciju:</legend><br>
+                    <label for="dolazak">Datum dolaska:</label>
+                    <input type="date" id="dolazak" name="dolazak"><br><br>
+                    <label for="vrijeme">Vrijeme dolaska:</label>
+                    <input disabled type="time" id="vrijeme" name="vrijeme"><br><br>
+                    <label for="odlazak">Datum odlaska:</label>
+                    <input type="date" id="odlazak" name="odlazak"><br><br>
+                    <label for="kreveti">Broj kreveta:</label>
+                    <select id="kreveti" name="kreveti">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    </select><br><br>
+                    <label >Način plaćanja:</label>
+                    <input type="radio" id="placanje-kartica" name="placanje" value="kartica">
+                    <label for="placanje-kartica">Kreditna kartica</label>
+                    <input type="radio" id="placanje-gotovina" name="placanje" value="gotovina">
+                    <label for="placanje-gotovina">Gotovina</label><br><br>
+                    <input type="checkbox" id="spa" name="spa">
+                    <label for="spa">Želite li uključiti spa?</label><br><br>
+                  </fieldset>
+                </div><br>
+                <div class="boxRezervacija">
+                    <input type="submit" value="Rezerviraj">
+                    <input type="reset" value="Resetiraj">
+                </div>
+              </form>
+              <div id="KrugBoxID">
+                <div id="KrugID"></div>
+              </div>
+              
+            </main>
+                <footer>
+                  <p>&copy;Frano Šimić<br>
+                  2023
+                  </p>
+                  <a class="imgPod" href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"><img src="../Dokumenti/Slike/88x31.png" alt="Greska"></a>
+                    <a class="imgPod" href="index"><img src="../Dokumenti/Slike/LogoMini.png" alt="Greska"></a>
+                    <a class="imgPod" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fspider.foi.hr%2FOWT%2F2023%2Fzadaca_02%2Ffsimic21%2FOstalo%2Frezervacija.html"><img src="../Dokumenti/Slike/HTML5.png" alt="Greska"></a>
+                </footer>
+          <script src="javascript"></script>
+    </body>
+</html>

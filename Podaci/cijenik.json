@@ -1,0 +1,52 @@
+[
+    {
+        "Usluga":"Jednokrevetna",
+        "Opis":"Bez spa",
+        "Cijena":"60 eura"
+    },
+    {
+        "Usluga":"Jednokrevetna",
+        "Opis":"Sa spa",
+        "Cijena":"65 eura"
+    },
+    {
+        "Usluga":"Dvokrevedna",
+        "Opis":"Bez spa",
+        "Cijena":"55 eura"
+    },
+    {
+        "Usluga":"Dvokrevetna",
+        "Opis":"Bez spa",
+        "Cijena":"60 eura"
+    },
+    {
+        "Usluga":"Trokrevetna",
+        "Opis":"Bez spa",
+        "Cijena":"50 eura"
+    },
+    {
+        "Usluga":"Trokrevetna",
+        "Opis":"Sa spa",
+        "Cijena":"55 eura"
+    },
+    {
+        "Usluga":"Četverokrevetna",
+        "Opis":"Bez Spa",
+        "Cijena":"45 eura"
+    },
+    {
+        "Usluga":"Četverokrevetna",
+        "Opis":"Bez Spa",
+        "Cijena":"50 eura"
+    },
+    {
+        "Usluga":"Peterokrevetna",
+        "Opis":"Bez Spa",
+        "Cijena":"40 eura"
+    },
+    {
+        "Usluga":"Peterokrevetna",
+        "Opis":"Bez Spa",
+        "Cijena":"45 eura"
+    }
+]

@@ -1,0 +1,453 @@
+
+            *{
+              font-family: "Arial", sans-serif;
+            }
+           .h1Autor {
+                color: rgb(144,250,132);
+                font-size: 5rem;
+                margin-top: 3%;
+                text-align: center;
+            }
+            #KrugBoxID {
+              width: 100%;
+              height: 200px;
+              position: relative;
+            }
+            #kvadrat {
+              width: 100px;
+              height: 100px;
+              background-color: rgb(144, 250, 132);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+            }
+            #KrugID {
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              background-color: rgb(144,250,132);
+              position: absolute;
+              left: 0;
+              top: 50%;
+            }
+            
+            #RotacijaID{
+              display: inline-block;
+                vertical-align: top;
+                text-align: center;
+                padding: 10px;
+                width: auto;
+                margin-left:auto;
+                margin-right: auto;
+                border-radius: 3px;
+                margin-bottom: 10px;
+                background-color: rgb(98, 63, 98);
+                color: rgb(144,250,132);
+
+            }
+            .klasaGreske {
+              display:none;
+              position: fixed;
+              top: 50%;
+              left: 50%;
+              font-family: "Arial", sans-serif;
+              transform: translate(-50%, -50%);
+              background-color: red;
+              color: white;
+              padding: 10px;
+              z-index: 9999;
+              cursor: pointer;
+            }
+
+
+            .pozadina{
+              background-color: black;
+            }
+
+            main{
+                position: relative;
+                left: 0;
+                top: 25px;
+                margin-bottom: 60px;
+            }
+            
+            .background {
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100vh;
+                width: 100vw;
+                background-image: url("../Dokumenti/Slike/pozadina.jpg");
+                background-size: cover;
+                opacity: 0.3;
+                z-index: -1;
+              }
+              .backgroundAutor {
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100vh;
+                width: 100vw;
+                background-image: url("../Dokumenti/Slike/pozadinaAutor.jpg");
+                background-size: cover;
+                opacity: 0.3;
+                z-index: -1;
+              }
+            nav {
+                display: flex;
+                justify-content: center;
+                background-color:rgb(98, 63, 98);
+                width: 100%;
+                opacity: 0.8;
+                margin-bottom: 100px;
+            }
+            nav ul {
+                display: flex;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                z-index: 7;
+            }
+
+            nav a[href] {
+                height: 1rem;
+                color: rgb(144,250,132);
+                display: block;
+                padding: 1rem;
+                text-align: center;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1rem;
+                background-color: rgb(98, 63, 98);
+                transition:  0.5s;
+            }
+            nav a:hover {
+                background-color:rgb(214, 167, 214);
+                color: rgb(35, 32, 35);
+            }
+            nav a:active{
+                background-color:rgb(255, 255, 255);
+            }
+            nav a.aktivnaStranica {
+              transition: 0.5s;
+              background-color: rgb(214, 167, 214);
+              color: rgb(35, 32, 35);
+            }
+
+            p{
+                color: rgb(144,250,132);
+                font-size: 1rem;
+            }
+            .Photel{
+              margin-left: 250px;
+              margin-right: 250px;
+              color: rgb(144,250,132);
+              font-size: 2rem;
+            }
+
+
+
+            .font{
+                color: rgb(144,250,132);
+                font-size: 1rem;
+            }
+            footer{
+                color: rgb(144,250,132);
+                display:flex;
+                justify-content: center;
+                background-color:rgb(98, 63, 98);
+                width: 100%;
+                bottom:0;
+            }
+            .imgPod{
+                margin: 15px;
+                margin-left: 25px;
+                margin-right: 25px;
+                }
+            .imgZagA{
+                margin-left: 5%;
+                float: left;
+                width: 100px;
+                height: 100px;            
+             }
+
+             .boxAutor {
+                padding: 10px;
+                width: 400px;
+                margin-right: auto;
+                margin-left: auto;
+                text-align: left;
+                font-family: Arial, sans-serif;
+                background-color: rgb(192, 180, 199);
+                color: rgb(35, 32, 35);
+                border-radius: 3px;
+                transition: 0.5s;
+              }     
+              .boxAutor img {
+                max-width: 100%;
+                max-height: 100%;
+              }
+              .boxAutor:hover {
+                width: 650px;
+                margin-right: auto;
+                margin-left: auto;
+                font-size: 115%;
+                background-color: rgb(67, 30, 67);
+                color: rgb(144,250,132);
+              }
+
+              .centrirajsliku {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 5px;
+                margin-top: 5px;
+                width: 50%;
+                transition: 0.5s;
+              }
+              .centrirajsliku:hover {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 5px;
+                margin-top: 5px;
+                width: 55%;
+              }
+              .akcijskaPonuda {
+                text-align: center;
+                padding: 10px;
+                width: 400px;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 3px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                background-color: rgb(98, 63, 98);
+                color: rgb(144,250,132);
+                transition: 0.5s;
+            }
+            #KartaID{
+              width:99%;
+            }
+            #intSlika{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 5px;
+                margin-top: 5px;
+            }
+            .akcijskaPonuda:hover {
+                width: 430px;
+                padding: 15px;
+                font-size: 115%;
+                background-color: rgb(67, 30, 67);
+                color: rgb(144,250,132);
+              }
+
+              .akcijskaPonuda:active {
+                text-align: center;
+                padding: 10px;
+                width: 400px;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 3px;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                background-color: rgb(98, 63, 98);
+                color: rgb(144,250,132);
+                transition: 0.5s;
+              }
+
+              .akcijskaPonuda a{
+                text-decoration: none;
+                color:rgb(144,250,132);
+              }
+    
+              .boxPonuda {
+                width: calc(15% - 4px);
+                height: 60px;
+                display: inline-block;
+                padding: 7px;
+                text-align: center;
+                background-color: rgb(192, 180, 199);
+                color: rgb(35, 32, 35);
+                vertical-align: top;
+                border-radius: 3px;
+                transition: 0.5s;
+              }     
+              
+              .boxPonuda:hover {
+                width: calc(17% - 4px);
+                height: 60px;
+                font-size: 115%;
+                background-color: rgb(67, 30, 67);
+                color: rgb(144,250,132);
+              }
+              .centriraj {
+                text-align: center;
+              }
+
+              .hotelSlika {
+                width: calc(25% - 4px);
+                margin-left: 17px;
+                margin-right: 17px;
+                margin-bottom: 10px;
+                margin-top: 25px;
+                transition: 0.5s;
+              }
+              .hotelSlika:hover {
+                width: calc(28% - 4px);
+                margin-left: 17px;
+                margin-right: 17px;
+                margin-bottom: 10px;
+                margin-top: 25px;
+              }
+
+              .boxRezervacija {
+                display: inline-block;
+                vertical-align: top;
+                text-align: center;
+                padding: 10px;
+                width: auto;
+                margin-left:auto;
+                margin-right: auto;
+                border-radius: 3px;
+                margin-bottom: 10px;
+                background-color: rgb(98, 63, 98);
+                color: rgb(144,250,132);
+                transition: 0.5s;
+            }
+
+            .boxRezervacija:hover {
+                text-align: center;
+                padding: 10px;
+                width: auto;
+                font-size: 110%;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 3px;
+                margin-bottom: 10px;
+                background-color: rgb(144,250,132);
+                color: rgb(98, 63, 98);
+            }
+            table {
+              text-align: center;
+              margin: 0 auto;
+              color: rgb(144,250,132);
+              background-color: rgb(98, 63, 98);
+              padding: 5px;
+              border-style: solid;
+              border-color:rgb(144,250,132);
+              padding: 10px;
+            }
+            td{
+              border-style:solid;
+              padding: 10px;
+              border-color:rgb(99, 152, 93);
+              transition: 0.5s;
+            }
+            tr:nth-child(even):hover{
+              background-color: rgb(212, 125, 255);
+              color: rgb(35, 32, 35);
+            }
+            tr:nth-child(odd):hover{
+              background-color: rgb(216, 137, 255);
+              color: rgb(35, 32, 35);
+            }
+            tr:nth-child(even) {
+              background-color: rgb(98, 63, 98);
+            }
+            
+            tr:nth-child(odd) {
+              background-color: rgb(157, 91, 198);
+            }
+            
+
+            b{
+              font-weight:bolder;
+            }
+            i{
+              font-style: italic;
+            }
+            figure{
+              text-align: center;
+              margin: 0%;
+            }
+            figcaption{
+              background-color: rgb(98, 63, 98) ;
+              width: fit-content;
+              margin: auto;
+              margin-top: 20px;
+              font-size: 20px;
+              opacity: 0.8;
+              text-align: center;
+              border-radius: 3px;
+              padding: 15px;
+              color: rgb(144,250,132);
+              transition: 0.5s;
+            }
+            figcaption:hover{
+                background-color:rgb(144,250,132) ;
+                color: rgb(98, 63, 98);
+                font-size: 25px;
+            }
+
+            button{
+              background-color: rgb(98, 63, 98) ;
+              text-align: center;
+              font-size: 20px;
+              text-align: center;
+              border-radius: 3px;
+              padding: 15px;
+              color: rgb(144,250,132);
+              transition: 0.5s;
+              border-style: none;
+            }
+            button:hover{
+              background-color:rgb(144,250,132) ;
+                color: rgb(98, 63, 98);
+            }
+
+            .dokumentacijaBox{
+                padding: 10px;
+                width:fit-content;
+                margin-right: auto;
+                margin-left: auto;
+                text-align: left;
+                font-weight: 800;
+                background-color: rgb(192, 180, 199);
+                color: rgb(35, 32, 35);
+                border-radius: 3px;
+            }
+            
+            .dokumentacijaBox li:hover{
+              color: rgb(144,250,132);
+            }
+            .dokumentacijaBox a{
+              text-decoration: none;
+              transition: 0.5s;
+            }
+            .dokumentacijaBox a:hover{
+              font-size: 110%;
+            }
+
+            .fieldsetClass{
+              font-size: 1rem;
+              padding: 3px;
+              border-color: rgb(144,250,132);
+              border-style:solid;
+              border-width: 3px;
+            }
+            .galerijaSlika{
+              width: auto;
+              height: auto;
+              
+            }
+            .galerijaSlika :hover{
+              transform:scale(1.3);
+            }
+            #OpisID{
+              color: rgb(144,250,132);
+            }
+          

@@ -1,0 +1,14 @@
+                <div id="OpisID"></div>
+                </div>
+                </main>
+                <footer>
+                  <p>&copy;Frano Šimić<br>
+                  2023
+                  </p>
+                  <a class="imgPod" href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"><img src="../Dokumenti/Slike/88x31.png" alt="Greska"></a>
+                    <a class="imgPod" href="../index.html"><img src="../Dokumenti/Slike/LogoMini.png" alt="Greska"></a>
+                    <a class="imgPod" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fspider.foi.hr%2FOWT%2F2023%2Fzadaca_02%2Ffsimic21%2FOstalo%2Frezervacija.html"><img src="../Dokumenti/Slike/HTML5.png" alt="Greska"></a>
+                </footer>
+          <script src="../jsk/fsimic21.js"></script>
+    </body>
+</html>

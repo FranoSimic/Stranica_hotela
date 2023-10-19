@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head>
+        <title>Prijava</title>
+        <meta charset="UTF-8">
+        <meta name="kljucneRijeci" content="Hotel, Lannister, CSS, HTML">
+        <meta name="autor" content="Frano Šimić">
+        <link rel="icon" type="image/x-icon" href="../Dokumenti/Slike/LogoMini.png">
+        <link rel="stylesheet" type="text/css" href="CSS/fsimic21.css">
+        <link rel="stylesheet" type="text/css" href="CSS/fsimic21_responzivni_dizajn.css">
+        <script src="/javascript" type="text/javascript"></script>
+    </head>
+    <body class="pozadina">
+        <div class="backgroundAutor"></div>
+        <header>
+          <a href="/"><img class="imgZagA" src="../Dokumenti/Slike/Logo.png" alt="Greska"></a>
+          <h1 class="h1Autor">PRIJAVA</h1>
+        </header><main>
+          <nav>
+            <ul>
+              <li><a href="/"> POČETNA</a></li>
+              <li><a href="autor">AUTOR</a></li>
+              <li><a href="dokumentacija">DOKUMENTACIJA</a></li>
+              <li><a href="rezervacija">REZERVACIJA</a></li>
+              <li><a href="prijava" class="aktivnaStranica">PRIJAVA</a></li>
+              <li><a href="galerija">GALERIJA</a></li>
+              <li><a href="dinamicna">DINAMIČKA</a></li>
+              <li><a href="/api/rezervacije">REST</a></li>
+            </ul>
+          </nav>
+          <div class="centriraj">
+          <div class="boxRezervacija" id="RotacijaID">
+            ROTIRAM SE!
+          </div></div>
+        <form id="prijavaID" name="MojaPrijava" method="post" action="https://spider.foi.hr/OWT/materijali/ispis_forme.php"  class="centriraj">
+            <div class="boxRezervacija">
+              <input type="text" id="ime" name="ime" maxlength="30" placeholder="Ime i prezime" >
+            </div>
+            <div class="boxRezervacija">
+                <input type="text" id="email" name="email"  placeholder="e-mail">
+              </div>
+              <div class="boxRezervacija">
+                <input type="text" id="telefon" name="telefon"  placeholder="Telefon">
+              </div><br>
+            <div class="boxRezervacija">
+              <br>
+              <input type="radio" id="master" name="placanje" value="1" checked>
+              <label for="master">Plaćanje MasterCard</label>
+              <br>
+              <input type="radio" id="visa" name="placanje" value="2">
+              <label for="visa">Plaćanje visa</label>
+              <br>
+              <input type="radio" id="americanExpress" name="placanje" value="3">
+              <label for="americanExpress">Plaćanje american express</label>
+              <br>
+              <input type="radio" id="gotovina" name="placanje" value="4">
+              <label for="gotovina">Plaćanje gotovinom</label>
+            </div>
+            <div class="boxRezervacija"> 
+              <textarea id="poruka" name="poruka" rows="10" cols="40" maxlength="1000" placeholder="Nešto o sebi..." ></textarea>
+            </div><br>
+            <div class="boxRezervacija">
+              <input type="submit" id="PrijavaButon" value="Rezerviraj">
+              <input type="reset" value="Resetiraj">
+          </div>
+          </form>
+          <div class="centriraj">
+            <div id="kvadrat">PRITSNI ME!!</div>
+          </div>
+        </div>
+        </main> 
+        
+        
+        <footer>
+            <p>&copy;Frano Šimić<br>
+              2023
+            </p>
+            <a class="imgPod" href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"><img src="../Dokumenti/Slike/88x31.png" alt="Greska"></a>
+            <a class="imgPod" href="index"><img src="../Dokumenti/Slike/LogoMini.png" alt="Greska"></a>
+            <a class="imgPod" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fspider.foi.hr%2FOWT%2F2023%2Fzadaca_02%2Ffsimic21%2FOstalo%2Fprijava.html"><img src="../Dokumenti/Slike/HTML5.png" alt="Greska"></a>
+        </footer>
+      <script src="javascript"></script>
+</body>
+</html>
